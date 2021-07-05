@@ -1,0 +1,8 @@
+.myRedButton{
+    background-color: #A93F55;
+    border-style: none;
+    
+}
+
+.myRedButton:focus{background-color:#F2545B;}
+.myRedButton:hover{background-color:#F2545B;}
