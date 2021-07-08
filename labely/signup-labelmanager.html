@@ -55,8 +55,6 @@
                                                 <h1 class="h2 mt-4  mb-2">Sign-up</h1>
                                             </div>
                                             <form>
-
-
                                                 <div class="mt-4 mb-4">
                                                     <div class="text-center">
                                                         <img alt="Charles Hall" src="img/camera.svg"
@@ -96,7 +94,7 @@
                                                 <div class="mb-3">
                                                     <label class="form-label">Location * </label>
                                                     <select required class="form-select"
-                                                        aria-label="Default select example" >
+                                                        aria-label="Default select example">
 
                                                         <option selected value="1">Zurich</option>
                                                         <option value="2">Genf</option>
@@ -126,27 +124,21 @@
                                                         <option value="9">Stadirap</option>
                                                     </select>
                                                 </div>
-
-
                                                 <div class="mb-3">
-                                                    <label class="form-label">Company</label>
-                                                    <input class="form-control form-control-lg" type="text"
-                                                        name="company" placeholder="Enter your company name" />
-                                                </div>
-                                                <div class="mb-3">
-                                                    <label class="form-label">Email</label>
-                                                    <input class="form-control form-control-lg" type="email"
+                                                    <label class="form-label">Email *</label>
+                                                    <input class="form-control form-control-lg" type="email" required
                                                         name="email" placeholder="Enter your email" />
                                                 </div>
                                                 <div class="mb-3">
-                                                    <label class="form-label">Password</label>
-                                                    <input class="form-control form-control-lg" type="password"
-                                                        name="password" placeholder="Enter password" />
+                                                    <label class="form-label">Password *</label>
+                                                    <input class="form-control form-control-lg" min="5" required
+                                                        type="password" name="password" placeholder="Enter password" />
                                                 </div>
+                                                <small>* Required</small>
                                                 <div class="text-center mt-3">
-                                                    <button class="btn btn-primary myRedButton pl-5 pr-5"
-                                                        type="button">Sign up</button>
-                                                </div>
+													<button class="btn btn-primary myRedButton pl-5 pr-5 p-2"
+														type="submit" value="Submit">Sign up</button>
+												</div>
                                             </form>
                                         </div>
                                     </div>
