@@ -1,7 +1,54 @@
+.myRegisterButton {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #FFFF;
+    background-color: #A93F55;
+    border-style: none;
+}
 
-.suggested-labels-title {
+.myRegisterButton:focus {
+    background-color: #F2545B;
+}
+
+.myRegisterButton:hover {
+    background-color: #F2545B;
+}
+
+.myAlreadyAccountButton {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #FFFF;
+    background-color: #A93F55;
+    border-style: none;
+}
+
+.myAlreadyAccountButton:focus {
+    background-color: #F2545B;
+}
+
+.myAlreadyAccountButton:hover {
+    background-color: #F2545B;
+}
+
+.labels-title {
     text-align: center;
     font-size: 30px;
+    font-weight: bold;
+}
+
+.already-account-title {
+    text-align: left;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.register-title {
+    text-align: left;
+    font-size: 23px;
     font-weight: bold;
 }
 
@@ -12,20 +59,15 @@
 .labely-logo {
     padding-left: 10%;
     padding-right: 10% !important;
-    padding-bottom: 10%; 
+    padding-bottom: 10%;
     padding-top: 10%;
 }
 
 .myRedButton {
-    color: #FFFF ;
+    color: #FFFF;
     background-color: #A93F55;
     border-style: none;
 }
-
-
-.myRedButton:focus{background-color:#F2545B;}
-.myRedButton:hover{background-color:#F2545B;}
-.ownBadge{background-color:#A93F55 !important;}
 
 .myRedButton:focus {
     background-color: #F2545B;
@@ -33,6 +75,10 @@
 
 .myRedButton:hover {
     background-color: #F2545B;
+}
+
+.ownBadge {
+    background-color: #A93F55 !important;
 }
 
 .mySearchButton {
@@ -48,4 +94,8 @@
 
 .mySearchButton:hover {
     background-color: #F2545B;
+}
+
+.h-10 {
+    height: 13.95%;
 }
